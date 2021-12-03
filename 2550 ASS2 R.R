@@ -1,4 +1,4 @@
-# ETX2550  ASSIGNMENT 2
+#ASSIGNMENT
 
 ####
 rm(list=ls())
@@ -49,7 +49,7 @@ ggplot(weekd,aes(x=Temp,
   geom_smooth() + facet_wrap(~State,nrow=5,scale='free_y') + 
   scale_x_log10() + scale_y_log10()+
   ggtitle("Scatter plot of Tempature against Demand in 5 states") +
-  xlab("Tempature at 3PM (ºC) ") + ylab("Total demand for electricity at 3PM (Mwh)")
+  xlab("Tempature at 3PM (ÂºC) ") + ylab("Total demand for electricity at 3PM (Mwh)")
 
 # 4. Netexport with price voltalitiy
 
@@ -182,7 +182,7 @@ ggplot(weekd,aes(x=Temp,
   geom_point(data=wend,colour='black') + 
   geom_smooth() + facet_wrap(~State,nrow=5,scale='free_y') + 
   ggtitle("Scatter plot of Tempature against Demand in 5 states") +
-  xlab("Tempature at 3PM (ºC) ") + ylab("Total demand for electricity at 3PM (Mwh)")
+  xlab("Tempature at 3PM (ÂºC) ") + ylab("Total demand for electricity at 3PM (Mwh)")
 
 ###############################################################
 View(wend)
